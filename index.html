@@ -19,6 +19,10 @@
   }).addTo(map);
   // Create point feature for Wilkinson Hall
   var myDataPoint = L.marker([44.56822, -123.28034]).addTo(map);
+  var myDataLine = L.polyline([[44.5656915, -123.2775289], [44.5656992, -123.2778923], [44.5662266, -123.2778722], [44.5682559, -123.2778293], [44.5682445, -123.2800823]],
+    {color: 'red', weight: 5}).addTo(map);
+  var myArea = L.polygon([[44.5651985, -123.2769978],[44.566131, -123.2769978], [44.5661339, -123.2775027], [44.5651985, -123.2775182], [44.5651985, -123.2769978],],
+    {color: 'orange', weight: 5}).addTo(map);
     </script>
 </body>
 </html>
